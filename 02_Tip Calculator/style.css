@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+    background-color: #212121;
+    color: white;
+}
+.container{
+    height: 500px;
+    max-width: 600px;
+    margin: 100px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(43, 46, 46);
+    border: 5px solid rgb(0, 0, 0);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.4);
+    
+}
+h1{
+    font-size: 40px;
+    color: rgb(0, 21, 255);
+    margin: 10px 0;
+}
+p{
+    margin-left: 10px;
+    font-size: 18px;
+    text-align: left;
+}
+.container label{
+    text-align:start;
+    color: red;
+    margin: 10px;
+    font-size: 20px;
+}
+input{
+    width: 80%;
+    padding: 10px;
+    margin: 10px;
+}
+button{
+    width: 40%;
+    margin: 20px 180px;
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+    background-color: yellow;
+    border-radius: 15px;
+    /* margin-top: 20px; */
+}
+button:hover{
+    background-color: rgba(255, 201, 7, 0.758);
+}
+.total{
+    font-size: 30px;
+    color: orange;
+    text-align: center;
+}
