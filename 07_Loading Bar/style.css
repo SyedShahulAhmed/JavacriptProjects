@@ -1,0 +1,36 @@
+body{
+    font-family: cursive;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    background-color: black;
+    height: 50vh;
+}
+.container{
+    width: 400px;
+    text-align: center;
+    position: relative;
+    color: white;
+}
+.counter{
+    font-size: 30px;
+}
+.lb-back{
+    position: absolute;
+    height: 10px;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+}
+.lb-front{
+    position: absolute;
+    height: 10px;
+    border: none;
+    background-color: rgb(255, 0, 0);
+    border-radius: 5px;
+    width: 0%;
+}
