@@ -1,0 +1,78 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #212121;
+}
+.container{
+    margin: 100px 500px;
+    border: 2px solid black;
+    padding: 20px;
+    box-shadow: 
+   2px 2px 4px rgba(0, 0, 0, 0.1), 
+   4px 4px 8px rgba(0, 0, 0, 0.2);
+
+}
+.img img{
+    width: 600px;
+    height: 300px;
+    object-fit: cover;
+    border: 2px solid white;
+    box-shadow: 5px 10px 15px rgba(255, 255, 255, 0.164);
+
+}
+h1{
+    font-size: 40px;
+    text-align: center;
+    margin: 10px;
+    color: white;
+    text-shadow: 0 0 8px rgba(255, 255, 0, 0.8);
+
+}
+.container p{
+    font-size: 16px;
+    margin: 10px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+button{
+    font-size: 20px;
+    padding: 10px;
+    background-color: rgb(255, 166, 0);
+    color: black;
+    font-weight: bold;
+}
+.gtavideo {
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+.gtavideo.act {
+    visibility: visible;
+    opacity: 1;
+}
+
+.gtavideo video{
+    position: absolute;
+    width: 900px;
+    height: 600px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    font-size: 20px;
+    background-color: #212121;
+}
+.close-icon{
+    position: relative;
+    top: -300px;
+    right: 300px;
+    font-size: 50px;
+    color: white;
+
+}
