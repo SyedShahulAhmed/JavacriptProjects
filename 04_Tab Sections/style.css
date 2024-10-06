@@ -1,0 +1,66 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    margin: 0;
+    font-family: "Roboto Condensed", sans-serif;
+    padding: 0;
+    background-color: #FFECC8;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin: 160px 0px;
+}
+
+.img img{
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+}
+.container{
+    height: 400px;
+    width: 560px;
+    background-color: #FFD09B;
+    border: 1px solid #FFF7D1;
+    border-radius: 10px;
+}
+
+.btn{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.container button{
+    font-size: 30px;
+    padding: 20px;
+    width: 100%;
+    border: 1px solid #FFF7D1;
+    background-color: #FFB0B0;
+    color: rgb(130, 113, 113);
+}
+.container button:hover{
+    background-color: #ffecc878;
+}
+
+button:nth-child(1){
+    border-top-left-radius: 10px;
+}
+button:nth-child(3){
+    border-top-right-radius: 10px;
+}
+.tabs-section{
+    padding: 20px;
+}
+.tabs-section h3{
+    font-size: 25px;
+    color: rgba(0, 0, 0, 0.18);
+    margin-bottom: 10px;
+}
+.tabs-section p{
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+}
+.section{
+    display: none;
+}
