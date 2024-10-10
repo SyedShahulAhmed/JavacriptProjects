@@ -1,0 +1,19 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+
+body{
+    font-family: "Bree Serif", serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #77A1D3;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #E684AE, #79CBCA, #77A1D3);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #E684AE, #79CBCA, #77A1D3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+h1{
+    font-size: 50px;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.586);
+    color: rgb(255, 255, 255);
+}
