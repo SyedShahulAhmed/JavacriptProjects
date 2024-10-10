@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #212121;
+}
+.container{
+    height: 300px;
+    width: 400px;
+    border: 5px solid white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+h1{
+    font-size: 35px;
+    color: rgb(4, 0, 255);
+}
+.btns{
+    display: flex;
+}
+p{
+    font-size: 100px;
+    color: white;
+}
+ul li{
+    list-style-type: none;
+}
+.btns button{
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 5px;
+}
+.minus{
+    background-color: red;
+    font-size: 50px;
+    color: white;
+}
+.add{
+    background-color: rgb(17, 130, 45);
+    font-size: 50px;
+    color: white;
+}
