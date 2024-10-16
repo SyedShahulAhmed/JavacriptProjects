@@ -1,0 +1,45 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Akaya Kanadaka", system-ui;
+}
+body{
+    background-color: #ffffff;
+    color: white;
+    background: url("bg.webp") center no-repeat;
+    background-size: cover;
+}
+h1 {
+    text-align: center;
+    font-size: 3rem;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2), 
+             4px 4px 8px rgba(0, 0, 0, 0.3), 
+             6px 6px 12px rgba(0, 0, 0, 0.4), 
+             8px 8px 16px rgba(0, 0, 0, 0.5);
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.Color-container{
+    height: 300px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 1.5rem;
+    border-radius: 50%;
+    border: 3px solid rgb(0, 0, 0);
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 8px 20px, rgba(0, 0, 0, 0.3) 0px 16px 40px;
+}
