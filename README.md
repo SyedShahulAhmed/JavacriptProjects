@@ -1,4 +1,4 @@
 # JavacriptProjects
 
 
-This Repo Contains Mini-Javascript Projects 
+This Repo Contains Mini-Javascript Projects For Learning 
