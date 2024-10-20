@@ -1,0 +1,43 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&family=Cormorant:ital,wght@0,300..700;1,300..700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Cormorant", serif;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #6665DD;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.content{
+    height: 200px;
+    width: 200px;
+    border: 3px dashed rgba(0, 0, 0, 0.544);
+    border-radius: 50%;
+    text-align: center;
+}
+i{
+    font-size: 60px;
+    position: relative;
+    color: #160F29;
+    top: -20px;
+}
+.count{
+    font-size: 60px;
+    color: #EFF7F6;
+}
+h3{
+    font-size: 25px;
+    margin-top: 70px ;
+    color: #EFF7F6;
+}
