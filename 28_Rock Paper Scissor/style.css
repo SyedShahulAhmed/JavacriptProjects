@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #159957;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #155799, #159957);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #155799, #159957); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.container{
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.581);
+    box-shadow: rgba(0, 0, 0, 0.827) 0px 7px 29px 0px;
+}
+h1{
+    font-size: 40px;
+    background-color: rgb(35, 79, 192);
+    padding: 20px;
+    border-top-left-radius: 11px;
+    border-top-right-radius: 11px;
+    color: white;
+    text-shadow: 4px 3px 6px rgba(0, 0, 0, 1);
+}
+p{
+    font-size: 20px;
+    padding-top: 10px;
+}
+.elements{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+button{
+    padding: 15px;
+    font-size: 30px;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    transform: scale(1);
+    transition: transform .2s ease-in;
+
+}
+button:hover{
+    transform: scale(1.2);
+}
+.win{
+    color: rgb(255, 255, 15);
+    font-size: 20px;
+    text-align: center;
+    padding: 5px;
+    text-shadow: 4px 3px 6px rgba(0, 0, 0, 1);
+}
+#rock{
+    background-color: red;
+}
+#paper{
+    background-color: rgb(0, 8, 255);
+}
+#scissors{
+    background-color: rgb(13, 255, 0);
+}
+.results{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+#player{
+    color: blue;
+}
+#comp{
+    color: rgb(255, 0, 0);
+    font-weight: bold;
+}
