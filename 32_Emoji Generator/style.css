@@ -1,46 +1,45 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
-body{
-    background-color: #98DFEA;
-    color: white;
-    font-family: cursive;
-    color: #25283D;
+body {
+  background-color: #98dfea;
+  color: white;
+  font-family: cursive;
+  color: #25283d;
 }
-h1{
-    font-size: 40px;
-    color: #8F3985;
+h1 {
+  font-size: 40px;
+  color: #8f3985;
 }
-.container{
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-.section{
-    background-color: #EFD9CE;
-    border: 5px solid #07BEB8;
-    height: 300px;
-    width: 250px;
-    display: grid;
-    place-items: center;
-    margin-top: 20px;
-    padding: 20px;
-    border-radius: 20px;
+.section {
+  background-color: #efd9ce;
+  border: 5px solid #07beb8;
+  height: 300px;
+  width: 250px;
+  display: grid;
+  place-items: center;
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 20px;
 }
-button{
-    font-size: 60px;
-    padding: 20px;
-    border-radius: 15px;
-    border: none;
-    outline: none;
-    background-color: #EFD9CE;
-    color: #25283D;
+button {
+  font-size: 60px;
+  padding: 20px;
+  border-radius: 15px;
+  border: none;
+  outline: none;
+  background-color: #efd9ce;
+  color: #25283d;
 }
-p{
-    font-size: 16px;
-
+p {
+  font-size: 16px;
 }
