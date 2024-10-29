@@ -1,3 +1,43 @@
+01 -> Testimonial Slider
+02 -> Tip Calculator
+03 -> Age Calculator
+04 -> Tab Sections
+05 -> Character Counter
+06 -> Video Popup
+07 -> Loading Bar
+08 -> Image Slider
+09 -> Weight Converter
+10 -> Side Menu
+11 -> Temperature Converter
+12 -> Auto Text
+13 -> Multiplication App
+14 -> Counter
+15 -> Rotating Gallery
+16 -> Mini Calender
+17 -> Password Generator
+18 -> Navbar
+19 -> Login Form
+20 -> Background Video
+21 -> Random color generator
+22 -> Profile Statistics 
+23 -> Stop Watch
+24 -> Note Taking App
+25 -> Calculator
+26 -> Digital Clock
+27 -> Analog Clock
+28 -> Rock Paper Scissor
+29 -> Image Loader
+30 -> Random Quote Generator
+31 -> Currency Converter
+32 -> Emoji Generator
+33 -> Image Search 
+34 -> Anime Pics  (https://api.waifu.pics/sfw/waifu)
+35 -> Weather App (0e4abf016a524f12a79182237241508)
+
+
+Here’s the version with centered text using Markdown without HTML:
+
+---
 
 # 🎉 JavaScript Projects Collection 🎉
 
@@ -66,3 +106,6 @@ Feel free to contribute by forking the repository and submitting a pull request 
 
 ## ✨ Enjoy exploring these projects! ✨
 
+---
+
+This version uses simple Markdown styling, and the final message is placed in its own section for a clean, centered effect without relying on HTML.  write completely using html
