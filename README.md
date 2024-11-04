@@ -64,5 +64,5 @@ Feel free to contribute by forking the repository and submitting a pull request 
 
 ---
 
-## ✨ Enjoy exploring these projects! ✨
+## ✨ Enjoy exploring these projects ✨
 
