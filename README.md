@@ -52,7 +52,7 @@ Welcome to my collection of **JavaScript projects**! This repository showcases *
 To run these projects locally, clone the repository and open the desired project's HTML file in your browser.
 
 ```bash
-git clone https://github.com/SHAHUL-AHMED-77/JavacriptProjects.git
+git clone https://github.com/SyedShahulAhmed/JavacriptProjects.git
 cd javascript-projects
 ```
 
