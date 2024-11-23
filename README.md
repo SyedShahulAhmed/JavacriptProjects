@@ -5,6 +5,12 @@ Welcome to my collection of **JavaScript projects**! This repository showcases *
 
 ---
 
+## 🌐 Live Demo
+
+👉 Check out the live demo of all projects here: [**CodeXhibit Live**](https://js-project-show-case.vercel.app/)
+
+---
+
 ## 🌟 Projects Table
 
 | Project Number | Project Name              | Description                                       |
@@ -52,7 +58,7 @@ Welcome to my collection of **JavaScript projects**! This repository showcases *
 To run these projects locally, clone the repository and open the desired project's HTML file in your browser.
 
 ```bash
-git clone https://github.com/SyedShahulAhmed/JavacriptProjects.git
+git clone https://github.com/SyedShahulAhmed/JavascriptProjects.git
 cd javascript-projects
 ```
 
@@ -65,4 +71,3 @@ Feel free to contribute by forking the repository and submitting a pull request 
 ---
 
 ## ✨ Enjoy exploring these projects ✨
-
