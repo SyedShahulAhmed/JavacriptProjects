@@ -7,7 +7,7 @@ Welcome to my collection of **JavaScript projects**! This repository showcases *
 
 ## 🌐 Live Demo
 
-👉 Check out the live demo of all projects here: [**CodeXhibit Live**](https://js-project-show-case.vercel.app/)
+👉 Check out the Details of all projects here: [**CodeXhibit Live**](https://js-project-show-case.vercel.app/)
 
 ---
 
